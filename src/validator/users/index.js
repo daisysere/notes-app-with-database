@@ -1,6 +1,6 @@
 // fungsi validator dengan menerapkan schema yng telah dibuat
 const InvariantError = require('../../exceptions/InvariantError');
-const { UserPayloadSchema } = require('./schema');
+const UserPayloadSchema = require('./schema');
 
 const UserValidator = {
   // fungsi untuk memvalidasi data payload (dari parameternya)
